@@ -1,7 +1,7 @@
 {
   "name": "shellenergy-csv",
   "description": "A CLI to fetch energy usage data from Shell Energy",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./dist/app.js",
   "bin": "./dist/app.js",
   "files": [
