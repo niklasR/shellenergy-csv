@@ -1,0 +1,29 @@
+{
+  "name": "shellenergy-csv",
+  "description": "A CLI to fetch energy usage data from Shell Energy",
+  "version": "1.0.0",
+  "main": "./dist/app.js",
+  "bin": "./dist/app.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build && add-shebang"
+  },
+  "keywords": [],
+  "author": "nik@rahmel.eu",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "commander": "^7.0.0",
+    "jsonexport": "^3.2.0",
+    "luxon": "^1.25.0"
+  },
+  "devDependencies": {
+    "@types/jsonexport": "^3.0.1",
+    "@types/luxon": "^1.25.1",
+    "@types/node": "^14.14.22",
+    "add-shebang": "^0.1.0"
+  }
+}
